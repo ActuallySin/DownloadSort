@@ -1,0 +1,54 @@
+Directory_Settings:
+  DownloadFolder : "C:/Sample/Sample"
+  VideoFolder : "C:/Sample/Sample"
+  ImageFolder : "C:/Sample/Sample"
+  ExecutableFolder : "C:/Sample/Sample"
+  DocumentFolder : "C:/Sample/Sample"
+  MusicFolder : "C:/Sample/Sample"
+  ArchiveFolder : "C:/Sample/Sample"
+
+FileTypes:
+  Videos:
+    - .mkv
+    - .mp4
+    - .mov
+
+  Images:
+    - .jpg
+    - .jpeg
+    - .gif
+    - .png
+    - .tiff
+    - .raw
+    - .svg
+
+  Executables:
+    - .exe
+    - .msi
+
+  Music:
+    - .mp3
+    - .flac
+    - .wav
+    - .aac
+
+  Documents:
+    - .docx
+    - .doc
+    - .xls
+    - .xlsx
+    - .md
+    - .txt
+    - .log
+    - .rfc
+    - .bib
+    - .ris
+    - .pdf
+    - .drawio
+    - .odt
+
+  Archives:
+    - .7z
+    - .zip
+    - .rar
+    - .jar

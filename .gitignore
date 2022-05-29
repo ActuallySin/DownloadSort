@@ -2,3 +2,6 @@
 venv
 tests
 run.bat
+functions/DownloadSort/build
+functions/DownloadSort/dist
+functions/DownloadSort/downloadsort.spec

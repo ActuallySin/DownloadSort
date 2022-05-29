@@ -13,7 +13,7 @@ class DownloadSort:
         self.settings = self.__settings_loader("settings")
         self.types = self.__settings_loader("types")
 
-    def __settings_loader(self, settings: str, config_path: str = "../../settings/config.yml") -> dict:
+    def __settings_loader(self, settings: str, config_path: str = "./config.yml") -> dict:
         """
         Loads all needed settings.
 
@@ -21,7 +21,7 @@ class DownloadSort:
         :param config_path: The path to the config file, has a set default.
         :return: None
         """
-        full_path = os.path.join(os.path.dirname(__file__), config_path)
+        full_path = os.path.join(os.getcwd(), config_path)
         with open(full_path, mode="r", encoding="utf-8") as configs:
             if settings == "settings":
                 settings = yaml.safe_load(configs)["Directory_Settings"]

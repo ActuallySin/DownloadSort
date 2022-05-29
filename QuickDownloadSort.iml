@@ -9,6 +9,8 @@
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/tests/.pytest_cache/v" />
       <excludeFolder url="file://$MODULE_DIR$/tests" />
+      <excludeFolder url="file://$MODULE_DIR$/functions/DownloadSort/build" />
+      <excludeFolder url="file://$MODULE_DIR$/functions/DownloadSort/dist" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (QuickDownloadSort)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

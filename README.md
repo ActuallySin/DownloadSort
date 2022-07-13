@@ -6,4 +6,6 @@ Run with `Run.bat` or command line
 Install dependencies using `poetry install`
 
 ## Configuration
-Paths and file types can be edited in the [config.yml](./settings/config.yml) file
+New with this Version:
+- Configuration can be done through the gui.
+- NOTE: The GUI is still experimental and may break,

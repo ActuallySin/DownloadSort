@@ -46,6 +46,9 @@ FileTypes:
     - .pdf
     - .drawio
     - .odt
+    - .csv
+    - .html
+    - .json
 
   Archives:
     - .7z
